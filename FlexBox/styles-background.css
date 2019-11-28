@@ -6,6 +6,10 @@ html {
     justify-content: center;
 }
 
+body{
+    height: 80%;
+}
+
 .flexbox-item-1 {
     min-height: 100px;
 }
