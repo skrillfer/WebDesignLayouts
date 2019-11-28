@@ -1,9 +1,17 @@
 .flexbox-container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     /*center,space-around,space-between*/
     align-items: center;
     /*flex-start,flex-end,baseline,stretch,center*/
+    /*
+    align-content is used for multiline flexbox-container
+    */
+    align-content: stretch;
+    /*flex-start,flex-end,center,space-around,
+      space-between,stretch*/
+    
 }
 
 .flexbox-item{
