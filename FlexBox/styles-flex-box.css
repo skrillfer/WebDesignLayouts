@@ -1,20 +1,9 @@
 .flexbox-container{
-    height: 700px;    
+    height: 800px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    /*center,space-around,space-between*/
-    align-items: center;
-    /*flex-start,flex-end,baseline,stretch,center*/
-    /*
-    align-content is used for multiline flexbox-container
-    */
-    align-content: space-around;
-    /*flex-start,flex-end,center,space-around,
-      space-between,stretch*/
-    /*
-        align-content is similary to justify-content
-    */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
 }
 
 .flexbox-item{
